@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Тестовое задание. Дарина Па</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+</head>
+<body>
+    <header>
+            <nav class="nav navbar-expand-lg d-flex justify-content-between">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <a class="navbar-brand" href="#">Smart Driver</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
+            <button class="btn btn-link">
+                <i class="fas fa-sign-in-alt"></i>
+            </button>
+
+        </nav>
+        <div class="container-fluid">
+            <div class=" row d-flex justify-content-center">
+                <div class="header-text col-8 col-sm-7">
+                    Smart Driver - самая большая площадка по поиску индивидуального автоинструктора
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="form">
+        <div class="container-fluid">
+
+            <form action="">
+                <div class="row">
+
+                    <div class="form-group col-12 col-lg-6">
+                        <select name="" id="" class="form-control form-select" >
+                                <option value="default" disabled selected>Город</option>
+                                <option value="spb">Санкт-Петербург</option>
+                                <option value="msk">Москва</option>
+                            </select>
+                    </div>
+
+                    <div class="btn-group col-12 col-lg-6 d-flex justify-content-between" role="group" aria-label="Car Class">
+                        <div class="row">
+                        <div class="col"><p class="form-label">Класс автомобиля</p></div>
+                        <div class="w-100"></div>
+                        <div class="col-2"><button class="form-carClass btn btn-light">A</button></div>
+                        <div class="col-2"><button class="form-carClass btn btn-light">B</button></div>
+                        <div class="col-2"><button class="form-carClass btn btn-light">C</button></div>
+                        <div class="col-2"><button class="form-carClass btn btn-light">D</button></div>
+                        <div class="col-2"><button class="form-carClass btn btn-light">E</button></div>
+                        </div>
+                </div>
+
+                </div>
+                <div class="btn-group row d-flex justify-content-between">
+                        <div class="col"><p class="form-label">Коробка передач</p></div>
+                        <div class="w-100"></div>
+                        <div class="col form-carDetails"><button class="btn form-carDetails-btn btn-light">АКП</button></div>
+                        <div class="col form-carDetails"><button class=" btn form-carDetails-btn btn-light">МКП</button></div>
+                    </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-12 col-sm-6 ">
+                        <button class="btn form-tutor btn-light" onsubmit="">Подобрать инструктора</button>
+                    </div>
+                </div>
+            </form>
+            </div>
+        </div>
+    </section>
+
+    <section align="center">
+        <div class="info container-fluid d-flex my-5 align-items-center flex-column" >
+            <div class="row">
+            <div class="col info-number">2490</div>
+            <div class="w-100"></div>
+            <div class="col">Инструкторов</div>
+        </div>
+        <div class="row">
+            <div class="col info-number">5 лет</div>
+            <div class="w-100"></div>
+            <div class="col">Средний опыт преподавания</div>
+        </div>
+        <div class="row">
+            <div class="col info-number">6089</div>
+            <div class="w-100"></div>
+            <div class="col">Клиентов доверяют нам</div>
+        </div>
+        </div>
+    </section>
+    
+    <section class="instructor">
+        <div class="row">
+            <div class="col m-2" align="center"><h3>У нас собраны только сертифицированные инструкторы</h3></div>
+            <div class="w-100"></div>
+            <div class="col m-2" align="center">
+                <img class="instructor-photo" src="https://via.placeholder.com/100" alt="photo">
+                <div>Станислав Быстров</div>
+            </div>
+            <ul class="col-lg m-2">
+                <li class="d-flex justify-content-between align-items-center">
+                    Свидетельство инструктора
+                    <i class="far fa-check-circle instructor-list-icon"></i>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                    Диагностическая карта для учебного автомобиля
+                    <i class="far fa-check-circle instructor-list-icon"></i>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                    Свидетельство регистрации транспортного средства
+                    <i class="far fa-check-circle instructor-list-icon"></i>
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+    <section class="about">
+        <div class="row d-flex align-items-center" >
+            <div class="col" align="center">
+                <h3>Почему клиенты выбирают Smart Driver?</h3>
+            </div>
+            <div class="w-100"></div>
+            <div class="col">
+                <img src="https://via.placeholder.com/90" alt="tutors">
+            </div>
+            <div class="col-8 col">
+                Наши инструктора - эксперты вождения разных категорий
+            </div>
+        </div>
+        <div class="row d-flex align-items-center">
+            <div class="col">
+                <img src="https://via.placeholder.com/80" alt="time">
+            </div>
+            <div class="col-8 col">
+                Вы можете выбрать любое удобное для себя время занятия
+            </div>
+        </div>
+        <div class="row d-flex align-items-center">
+            <div class="col">
+                <img src="https://via.placeholder.com/70" alt="experience">
+            </div>
+            <div class="col-8 col">
+                Не переживайте, если у вас нет опыта вождения! Мы научим всех!
+            </div>
+        </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div><a href="">О проекте</a></div>
+        <div><a href="">Блог</a></div>
+        <div><a href="">Правила и условия</a></div>
+        <div><a href="">Пользовательское соглашение</a></div>
+        <div><a href="">Вопрос-ответ</a></div>
+        <div><a href="">Контакты</a></div>
+        <div class="footer-contacts">
+            <span class="white-circle">
+                <a href=""><i class="fab fa-instagram"></i></a>
+            </span>
+            <span class="white-circle">
+                <a href=""><i class="fab fa-vk"></i></a>
+            </span>
+            <span class="white-circle">
+                <a href=""><i class="far fa-user"></i></a>
+            </span>
+        </div>
+    </footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</html>

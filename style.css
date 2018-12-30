@@ -1,0 +1,94 @@
+.container{
+    margin:0 15px !important;
+}
+.form-carDetails{
+    width:90% !important;
+}
+.form-carClass, .form-carDetails-btn,.form-tutor{
+    width:100% !important;
+}
+form{
+    padding: 5%;
+
+}
+.form-group{
+    padding-top:30px;
+}
+.col-auto{
+    padding-right:0 !important;
+}
+body{
+    font-size: 100%;
+}
+
+.info-number{
+    font-size:1.5em;
+}
+.info>.row{
+    margin:5px
+}
+
+a, .btn{
+    color:black !important;
+}
+.header-text{
+    font-size: 1.2em;
+}
+header>.container-fluid{
+    padding:0;
+}
+.instructor-photo{
+    border-radius: 100%;
+}
+.instructor-list-icon {
+    float: right
+}
+.col-lg>li{
+    font-size: 0.7em;
+}
+footer, header{
+    background: silver;
+    text-align:center;
+    padding:5% 0;
+}
+.white-circle{
+    border-radius: 100%;
+    background: white;
+    width:25px;
+    display: inline-block;
+    margin:1% 5%
+}
+.white-circle>a>.fab, .white-circle>a>.far{
+    color:silver;
+}
+.row>.col{
+    margin: 1%
+
+}
+@media screen and (min-width:1024px){
+    ul.col-lg>li{
+        font-size: 1em;
+    }
+    ul.col-lg{
+      margin-right:5%
+    }
+    header>.container-fluid{
+        padding:0 15px;
+    }
+    header{
+        padding:0;
+        background: white;
+    }
+    nav{
+        background: rgba(192,192,192,0.5);
+        position: fixed;
+        width:100vw;
+        height:45px;
+    }
+    .header-text{
+        margin-top:50px ;
+    }
+    .about>.row>.col>img{
+        padding-left:100px;
+    }
+}
