@@ -8,8 +8,10 @@
     width:100% !important;
 }
 form{
-    padding: 5%;
-
+    padding-top: 5%;
+}
+section{
+    padding: 10vh 0;
 }
 .form-group{
     padding-top:30px;
